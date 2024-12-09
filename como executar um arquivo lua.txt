@@ -1,0 +1,7 @@
+para criar um nuvo arquivo no terminal(cmd):
+type nul>nomedoarquivo.tipo
+
+no neovim:
+:terminal
+No terminal, execute o interpretador Lua diretamente:
+lua script.lua
