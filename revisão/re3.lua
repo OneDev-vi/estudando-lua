@@ -3,6 +3,7 @@ a = 10
 b = "manga"
 c = 10.78
 d = nil
+asm = "assembly x86"
 
 --print
 print("=============escrever na tela======")
@@ -38,5 +39,35 @@ print("============ler o teclado=============")
 print("escreva algo")
 ler = io.read()
 print(ler)
+
+--som de campinha
+print("=========campainha================")
+print("som:" .. "\a")
+
+--varias linha de iguinoração
+--[
+--manha
+--sal
+--picanha
+--pipoca
+--]
+
+--tabelas pega valores
+print("tabelas pegar os valores")
+tabela = {23,12,89,23,65}
+print(tabela[3])
+
+--tabelas colocar valores
+print("tabelas colocar valores")
+ta = {}
+ta[0] = 10
+ta[1] = 12
+print(ta[0])
+print(ta[1])
+
+--trocar as palavra de coisas tipo variaveis
+print("======troca de palavras nas variaveis=======")
+ao = string.gsub(b,"manga",asm)
+print(ao)
 
 
